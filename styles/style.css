@@ -11,12 +11,12 @@ html {
 .page {
   inline-size: 1200px;
   block-size: 100%;
-  margin: 0;
-  color: #ffffff;
+  margin: auto;
+  color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  justify-content: center;
+  
 }
 
 h1,
