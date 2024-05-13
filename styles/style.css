@@ -16,17 +16,9 @@ html {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  display: flex; 
-  justify-content: 
-  center;align-items: center; 
-
- 
-  /* align-self: center; */
-  /* display: grid;
-  align-items: stretch;
-  justify-self: center;
-  align-content: center;
-  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1,
@@ -48,13 +40,11 @@ ol {
   list-style: none;
 }
 .content {
-  
   display: grid;
   grid-template-columns: 711px 416px;
   gap: 30px;
   padding: 133px 30px 133px 30px;
   align-items: end;
-  
 }
 .result {
   display: flex;
@@ -118,7 +108,6 @@ video {
   padding-left: 0px;
   flex-wrap: wrap;
   flex-grow: 1;
-  /* justify-content: space-between; */
 }
 .content__list-item {
   padding-bottom: 28px;
@@ -141,7 +130,7 @@ video {
 .content__video-card-description-container {
   display: flex;
   flex-direction: column;
-  width:185px;
+  width: 185px;
   font-family: Fira Sans Condensed;
   overflow: hidden;
 }
@@ -151,7 +140,7 @@ video {
   padding-top: 0px;
   padding-bottom: 0px;
   padding-left: 0px;
-  
+  font-size: 0;
 }
 .content__video-card-title {
   font-size: 30px;
@@ -166,16 +155,16 @@ video {
   text-overflow: ellipsis;
 }
 
-/* .content__video-card-description::after {
+.content__video-card-description::after {
   content: "Вот, что видит кто-то из команды Практикума, когда не смотрит на код, а смотрит в окно. ";
   position: relative;
   font-size: 18px;
   line-height: 0.92;
-} */
+}
 
 .content__video-card-thumbnail {
   height: 103px;
-  width:210px;
+  width: 210px;
   padding: 0px 0px 0px 0px;
   object-fit: cover;
   object-position: center;
@@ -190,7 +179,9 @@ video {
   display: block;
   margin: 2px;
 }
-
+.content__video-card:active {
+  background-color: #545050;
+}
 .content__card-link:hover:active .content__video-card-description {
   text-decoration: none;
   background-color: #545050;
